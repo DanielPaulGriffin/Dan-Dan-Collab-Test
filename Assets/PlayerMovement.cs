@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
         float verticalInput = Input.GetAxis("Vertical");
 
         // Calculate the movement direction based on input values
-        Vector3 movementDirection = new Vector3(horizontalInput, verticalInput,0f ).normalized;
+        Vector3 movementDirection = new Vector3(horizontalInput, verticalInput,0f).normalized;
 
         // Apply movement to the GameObject
         transform.Translate(movementDirection * moveSpeed * Time.deltaTime);
