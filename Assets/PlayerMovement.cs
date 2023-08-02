@@ -19,5 +19,7 @@ public class PlayerMovement : MonoBehaviour
         transform.Translate(movementDirection * moveSpeed * Time.deltaTime);
         //my 'first' comment, your comment sucks
         //no it doesn't
+        //comments comments everywhere!!!
+        //ship it!!!
     }
 }
