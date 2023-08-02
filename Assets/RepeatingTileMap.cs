@@ -31,8 +31,6 @@ public class RepeatingTileMap : MonoBehaviour
         "0#000000" +
         "#0000000";
 
-    //adding more comment
-
     void Start()
     {
         player = GameObject.Find("Player");

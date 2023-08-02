@@ -21,6 +21,5 @@ public class PlayerMovement : MonoBehaviour
         //no it doesn't
         //comments comments everywhere!!!
         //ship it!!!
-        //hang on a sec
     }
 }
