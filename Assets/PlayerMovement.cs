@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
 
         // Apply movement to the GameObject
         transform.Translate(movementDirection * moveSpeed * Time.deltaTime);
-        //my 'first' comment, your comment sucks 
+        //my 'first' comment, your comment sucks
+        //no it doesn't
     }
 }
